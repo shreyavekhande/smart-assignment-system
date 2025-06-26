@@ -49,9 +49,13 @@ gcloud functions deploy process_assignment \
   --trigger-topic assignment-upload-topic \
   --entry-point process_assignment \
   --region us-central1
+```
+
 ---
 
 ## 📂 Project Structure
+
+```
 
 
 smart-assignment-system/
@@ -64,6 +68,7 @@ smart-assignment-system/
 ├── screenshots/             # Optional: logs and output proof
 └── README.md                # Project overview and setup instructions
 
+```
 
 ---
 
