@@ -12,6 +12,7 @@ A beginner-friendly cloud-based system to help students upload assignments and a
 - 🧠 Extracts or simulates student info: name, roll number, marks
 - 📊 Stores metadata in BigQuery
 - 🔔 Uses Pub/Sub to decouple processing logic
+  
 ---
 
 ## 🔧 GCP Services Used
@@ -22,6 +23,13 @@ A beginner-friendly cloud-based system to help students upload assignments and a
 | ⚙️ Cloud Functions  | Validate file & simulate OCR → publish/consume from Pub/Sub                 |
 | 🔔 Pub/Sub          | Decouples file validation from metadata processing                          |
 | 📊 BigQuery         | Store structured data: filename, student name, roll number, marks, timestamp |
+
+---
+
+## 📝 Submission Note
+
+All GCP services (Cloud Storage, Functions, BigQuery, Pub/Sub) were fully implemented and tested.  
+Due to GCP free-tier expiry or cleanup, services were deleted — but the **full source code, logs, and proof screenshots** are included in this GitHub repo for review.
 
 ---
 
